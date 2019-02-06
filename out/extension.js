@@ -14,8 +14,9 @@ function activate(context) {
     // The commandId parameter must match the command field in package.json
     let disposable = vscode.commands.registerCommand('extension.docs-toc', () => {
         // The code you place here will be executed every time your command is executed
+        var displayDate = new Date().toLocaleDateString();
         // Display a message box to the user
-        vscode.window.showInformationMessage('Docs: Table of Content Helper');
+        vscode.window.showInformationMessage('Docs: Table of Content Helper (' + displayDate + ')');
     });
     context.subscriptions.push(disposable);
 }
