@@ -17,11 +17,13 @@
 		"commands": [
 			{
 				"command": "extension.docs-toc",
-				"title": "Docs: Table of Contents"
-			}, {
+				"title": "Table of Contents",
+				"category": "Docs"
+			},
+			{
 				"command": "extension.docs-toc-html",
-				"title": "Docs: Preview Table of Contents",
-				"category": "docs-toc"
+				"title": "Preview Table of Contents",
+				"category": "Docs"
 			}
 		]
 	},

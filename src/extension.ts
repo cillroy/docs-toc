@@ -28,8 +28,8 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
 		vscode.commands.registerCommand('extension.docs-toc-html', () => {
 			const panel = vscode.window.createWebviewPanel(
-				'docs-toc',
-				'Docs ToC Helper',
+				'docs-toc-html',
+				'Docs Table of Contents Helper',
 				vscode.ViewColumn.One,
 				{}
 			);
