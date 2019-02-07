@@ -22,6 +22,20 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	console.log('Launching HTML based tool');
+
+	context.subscriptions.push(
+		vscode.commands.registerCommand('extension.docs-toc-html', () => {
+			const panel = vscode.window.createWebviewPanel(
+				'docs-toc',
+				'Docs ToC Helper',
+				vscode.ViewColumn.One,
+				{}
+			);
+		}
+		)
+	);
 }
 
 // this method is called when your extension is deactivated

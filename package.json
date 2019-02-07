@@ -18,6 +18,10 @@
 			{
 				"command": "extension.docs-toc",
 				"title": "Docs: Table of Contents"
+			}, {
+				"command": "extension.docs-toc-html",
+				"title": "Docs: Preview Table of Contents",
+				"category": "docs-toc"
 			}
 		]
 	},
