@@ -17,7 +17,7 @@ function activate(context) {
             // IGNORE ERROR AND LAUNCH DEBUG
             let querystring = vscode.window.activeTextEditor.document.getText();
             let lang = vscode.window.activeTextEditor.document.languageId;
-            vscode.env.openExternal(vscode.Uri.parse('https://cillroy.github.io/dmc-toc-helper/?' + (lang === 'markdown' ? 'md' : 'yaml') + '=' + encodeURIComponent(escape(querystring))));
+            vscode.env.openExternal(vscode.Uri.parse('https://cillroy.github.io/dmc-toc-helper/?' + (lang === 'markdown' ? 'markdown' : 'yaml') + '=' + encodeURIComponent(escape(querystring))));
         }
         catch (_a) {
             vscode.window.showErrorMessage('There was a problem reading your table of contents file, please make sure you have your file open and it is the active window.');
