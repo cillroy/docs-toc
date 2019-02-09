@@ -10,7 +10,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.docs-toc"
+		"onCommand:extension.docs-toc",
+		"onCommand:extension.docs-toc-html"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -24,6 +25,18 @@
 				"command": "extension.docs-toc-html",
 				"title": "Preview Table of Contents",
 				"category": "Docs"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.docs-toc",
+				"key": "ctrl+d d",
+				"mac": "cmd+d d"
+			},
+			{
+				"command": "extension.docs-toc-html",
+				"key": "ctrl+d h",
+				"mac": "cmd+d h"
 			}
 		]
 	},
