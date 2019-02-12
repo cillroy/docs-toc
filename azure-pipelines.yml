@@ -37,7 +37,7 @@ jobs:
         displayName: 'Compile sources'
         inputs:
           command: custom
-          verbose: false
+          verbose: true
           customCommand: 'run compile'
       - script: 'node node_modules/vscode/bin/test'
         displayName: 'Run tests'
