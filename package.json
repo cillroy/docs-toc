@@ -20,23 +20,13 @@
 				"command": "extension.docs-toc",
 				"title": "Table of Contents",
 				"category": "Docs"
-			},
-			{
-				"command": "extension.docs-toc-html",
-				"title": "Preview Table of Contents",
-				"category": "Docs"
 			}
 		],
 		"keybindings": [
 			{
 				"command": "extension.docs-toc",
-				"key": "ctrl+d d",
-				"mac": "cmd+d d"
-			},
-			{
-				"command": "extension.docs-toc-html",
-				"key": "ctrl+d h",
-				"mac": "cmd+d h"
+				"key": "ctrl+d ctrl+t",
+				"mac": "cmd+d cmd+t"
 			}
 		]
 	},
