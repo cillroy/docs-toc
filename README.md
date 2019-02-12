@@ -1,6 +1,8 @@
-# Docs.com Table of Content Visualizer README
+# Docs.com Table of Content Visualizer
 
 An extension to launch your Table of Contents in a web based visualizer.
+
+`Ctrl+D Ctrl+T` will launch the Table of Contents Visualizer, with the content from your open file.
 
 ## Features
 

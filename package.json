@@ -3,6 +3,9 @@
 	"displayName": "Docs Table of Contents visualizer",
 	"description": "An extension to launch the Docs Table of Content visualizer",
 	"version": "1.0.0",
+	"publisher": "cillroy",
+	"author": "cillroy",
+	"icon": "images/docs-dot-com.png",
 	"engines": {
 		"vscode": "^1.31.0"
 	},
@@ -47,6 +50,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cillroy/docs-toc.git"
-	},
-	"publisher": "cillroy"
+	}
 }
