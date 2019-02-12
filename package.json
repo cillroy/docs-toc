@@ -2,7 +2,7 @@
 	"name": "docs-toc",
 	"displayName": "Docs Table of Contents visualizer",
 	"description": "An extension to launch the Docs Table of Content visualizer",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.30.0"
 	},
