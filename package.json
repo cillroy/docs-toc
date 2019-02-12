@@ -47,5 +47,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cillroy/docs-toc.git"
-	}
+	},
+	"publisher": "cillroy"
 }

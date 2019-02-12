@@ -1,5 +1,7 @@
 # docs-toc README
 
+An extension to launch your Table of Contents in a web based visualizer.
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
