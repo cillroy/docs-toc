@@ -4,9 +4,6 @@ const vscode = require("vscode");
 function activate(context) {
     const dmcURI = 'https://cillroy.github.io/dmc-toc-helper/?';
     context.subscriptions.push(vscode.commands.registerCommand('extension.docs-toc', () => {
-        // Launch dmc-toc-helper in browser with yaml or md querystring
-        // https://code.visualstudio.com/api/references/vscode-api#env
-        // IGNORE ERROR AND LAUNCH DEBUG
         if (vscode.window.activeTextEditor !== undefined) {
             const editor = vscode.window.activeTextEditor;
             const lang = editor.document.languageId;
