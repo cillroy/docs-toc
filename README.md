@@ -12,6 +12,11 @@ If your document language is anything other than `markdown`, the extension will 
 
 ## Release Notes
 
+### 1.1.0
+
+- Updated the publishing information for the marketplace
+- Added an icon to the extension in the marketplace
+
 ### 1.0.0
 
 Initial release of Docs.com Table of Contents Visualizer

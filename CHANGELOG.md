@@ -7,6 +7,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 
+- Removed old comments
+
+## [1.1.0]
+
+### Changed
+
 - Updating documentation
 - Updating extension icon
 
