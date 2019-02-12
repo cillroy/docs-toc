@@ -5,9 +5,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 	context.subscriptions.push(
 		vscode.commands.registerCommand('extension.docs-toc', () => {
-			// Launch dmc-toc-helper in browser with yaml or md querystring
-			// https://code.visualstudio.com/api/references/vscode-api#env
-			// IGNORE ERROR AND LAUNCH DEBUG
 			if (vscode.window.activeTextEditor !== undefined) {
 				const editor: vscode.TextEditor = vscode.window.activeTextEditor;
 				const lang = editor.document.languageId;
