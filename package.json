@@ -10,8 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.docs-toc",
-		"onCommand:extension.docs-toc-html"
+		"onCommand:extension.docs-toc"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
