@@ -1,5 +1,9 @@
 # Change Log
 
+1.40 (2018-02-12)
+
+- Change to Visual Studio Code Marketplace Build badge
+
 1.3.0 (2018-02-12)
 
 - Adding Azure Devops build badge
