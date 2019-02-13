@@ -4,6 +4,8 @@ An extension to launch your Table of Contents in a web based visualizer.
 
 `Ctrl+D Ctrl+T` will launch the Table of Contents Visualizer, with the content from your open file.
 
+[![Build Status](https://dev.azure.com/cillroy/docs%20extensions/_apis/build/status/cillroy.docs-toc?branchName=master)](https://dev.azure.com/cillroy/docs%20extensions/_build/latest?definitionId=2&branchName=master)
+
 ## Features
 
 You will need to have a valid Table of Contents file open, for this extension to work.
