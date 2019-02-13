@@ -5,14 +5,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-### Changed
+## [1.3.0]
+
+- Adding Azure Devops build badge
+
+## [1.2.0]
 
 - Removed old comments
-- Adding Devops build badge
 
 ## [1.1.0]
-
-### Changed
 
 - Updating documentation
 - Updating extension icon

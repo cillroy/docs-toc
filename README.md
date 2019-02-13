@@ -14,6 +14,14 @@ If your document language is anything other than `markdown`, the extension will 
 
 ## Release Notes
 
+### 1.3.0
+
+- Adding Azure Devops build badge
+
+### 1.2.0
+
+- Removed old comments
+
 ### 1.1.0
 
 - Updated the publishing information for the marketplace
