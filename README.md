@@ -1,6 +1,6 @@
 # Docs.com Table of Content Visualizer
 
-[![Build Status](https://dev.azure.com/cillroy/docs%20extensions/_apis/build/status/cillroy.docs-toc?branchName=master)](https://dev.azure.com/cillroy/docs%20extensions/_build/latest?definitionId=2&branchName=master)
+[![Current-Version](https://vsmarketplacebadge.apphb.com/version/cillroy.docs-toc.svg)](https://marketplace.visualstudio.com/items?itemName=cillroy.docs-toc)
 
 An extension to launch your Table of Contents in a web based visualizer.
 
