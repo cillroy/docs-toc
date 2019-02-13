@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - Removed old comments
+- Adding Devops build badge
 
 ## [1.1.0]
 
