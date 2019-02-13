@@ -2,7 +2,7 @@
 	"name": "docs-toc",
 	"displayName": "Docs Table of Contents visualizer",
 	"description": "An extension for authors to launch the docs.com Table of Content visualizer",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"publisher": "cillroy",
 	"author": "cillroy",
 	"icon": "images/docs-dot-com.png",
