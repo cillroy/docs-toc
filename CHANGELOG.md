@@ -1,5 +1,9 @@
 # Change Log
 
+1.50 (2018-02-14)
+
+- Change keybindings to `alt+d t` to match Docs.com keybindings
+
 1.40 (2018-02-12)
 
 - Change to Visual Studio Code Marketplace Build badge
