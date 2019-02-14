@@ -27,8 +27,8 @@
 		"keybindings": [
 			{
 				"command": "extension.docs-toc",
-				"key": "ctrl+d ctrl+t",
-				"mac": "cmd+d cmd+t"
+				"key": "alt+d t",
+				"mac": "alt+d t"
 			}
 		]
 	},
