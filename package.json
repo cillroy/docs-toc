@@ -13,22 +13,33 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.docs-toc"
+		"onCommand:extension.docs-toc-local",
+		"onCommand:extension.docs-toc-online"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.docs-toc",
-				"title": "Table of Contents",
+				"command": "extension.docs-toc-local",
+				"title": "Table of Contents - Local",
+				"category": "Docs"
+			},
+			{
+				"command": "extension.docs-toc-online",
+				"title": "Table of Contents - Online",
 				"category": "Docs"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "extension.docs-toc",
-				"key": "alt+d t",
-				"mac": "alt+d t"
+				"command": "extension.docs-toc-local",
+				"key": "alt+d tl",
+				"mac": "alt+d tl"
+			},
+			{
+				"command": "extension.docs-toc-online",
+				"key": "alt+d to",
+				"mac": "alt+d to"
 			}
 		]
 	},
