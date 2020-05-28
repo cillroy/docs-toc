@@ -27,7 +27,7 @@ function activate(context) {
     }));
     function sendToWebPanel(querystring) {
         // Create and show panel
-        const panel = vscode.window.createWebviewPanel('dmc-toc-helper', 'ToC Helper', vscode.ViewColumn.One, {});
+        const panel = vscode.window.createWebviewPanel('dmc-toc-helper', 'ToC Helper', vscode.ViewColumn.Beside, {});
         // And set its HTML content
         panel.webview.html = convertToC(querystring);
     }
@@ -36,8 +36,52 @@ function activate(context) {
     }
     function convertToC(querystring) {
         var oHtml = "";
-        oHtml = querystring;
+        // oHtml = querystring;
+        oHtml = processYaml(querystring);
+        // for (const line of querystring.split(/[\r\n]+/)){
+        // 	oHtml += '<p>' + line + '/<p>';
+        //   }
         return oHtml;
+    }
+    function processYaml(yaml) {
+        var sOut = "<ul>";
+        const newline = '</span></li></ul>';
+        const beginLine = '<ul><li><span>';
+        var lines = yaml.split(/[\r\n]+/);
+        for (var i = 0; i < lines.length; i++) {
+            var line = lines[i].split(":");
+            var tmpLine = "";
+            for (var j = 1; j <= line.length; j++) {
+                if (line[j]) {
+                    tmpLine += ((j > 1) ? ":" : "") + line[j];
+                }
+            }
+            var spaces;
+            var tmpSpace;
+            switch (line[0].trim()) {
+                case "experimental":
+                    // $('#experiment_checkbox')[0].checked = (tmpLine.trim() == 'true');
+                    break;
+                case "experiment_id":
+                    // $('#experiment_id').val(tmpLine.trim().substring(1, tmpLine.trim().length - 1));
+                    break;
+                case "- name":
+                    spaces = line[0].split("- name");
+                    tmpSpace = spaces[0];
+                    sOut += beginLine + tmpSpace + "- title: " + tmpLine + newline + tmpSpace + "  toc: " + tmpLine + newline;
+                    break;
+                case "items":
+                    spaces = line[0].split("items");
+                    tmpSpace = spaces[0];
+                    sOut += tmpSpace + "folder: true" + newline;
+                    sOut += tmpSpace + "children: " + newline;
+                    break;
+                default:
+                    sOut += lines[i] + newline;
+                    break;
+            }
+        }
+        return sOut += "</ul>";
     }
 }
 exports.activate = activate;
